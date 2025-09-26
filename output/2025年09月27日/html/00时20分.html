@@ -1,0 +1,95 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>频率词统计报告</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 20px; }
+            h1, h2 { color: #333; }
+            table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            tr:nth-child(even) { background-color: #f9f9f9; }
+            .word { font-weight: bold; }
+            .count { text-align: center; }
+            .percentage { text-align: center; }
+            .titles { max-width: 500px; }
+            .source { color: #666; font-style: italic; }
+            .error { color: #d9534f; }
+            .news-link { 
+                color: #007bff; 
+                text-decoration: none; 
+                border-bottom: 1px dotted #007bff;
+            }
+            .news-link:hover { 
+                color: #0056b3; 
+                text-decoration: underline; 
+            }
+            .news-link:visited { 
+                color: #6f42c1; 
+            }
+            .no-link { 
+                color: #333; 
+            }
+            .new-title {
+                background-color: #fff3cd;
+                border: 1px solid #ffc107;
+                border-radius: 3px;
+                padding: 2px 6px;
+                margin: 2px 0;
+            }
+            .new-section {
+                background-color: #d1ecf1;
+                border: 1px solid #bee5eb;
+                border-radius: 5px;
+                padding: 10px;
+                margin-top: 10px;
+            }
+            .new-section h3 {
+                color: #0c5460;
+                margin-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>频率词统计报告</h1>
+    <p>报告类型: 实时分析</p><p>总标题数: 255</p><p>生成时间: 2025-09-27 00:20:49</p>
+        <table>
+            <tr>
+                <th>排名</th>
+                <th>频率词</th>
+                <th>出现次数</th>
+                <th>占比</th>
+                <th>相关标题</th>
+            </tr>
+    
+            <tr>
+                <td>1</td>
+                <td class="word">小米 雷军 xiaomi</td>
+                <td class="count">7</td>
+                <td class="percentage">2.75%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756319" target="_blank" class="news-link">创业板跌超2%，AI硬件、算力股普跌，恒科指跌近3%，小米跌8%，国债反弹，商品分化</a> [9] <font color='grey'>- 00时20分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345338&amp;amp;topic_name=%E6%AD%BB%E7%A3%95%E8%8B%B9%E6%9E%9C%2C%E5%B0%8F%E7%B1%B317%E7%B3%BB%E5%88%97%E5%AE%9A%E4%BB%B7%E5%A4%AA%E8%87%AA%E4%BF%A1" target="_blank" class="news-link">死磕苹果,小米17系列定价太自信</a> [9] <font color='grey'>- 00时20分</font></div><br><div class='new-title'>🆕 [知乎] <a href="https://www.zhihu.com/question/1954658971966239770" target="_blank" class="news-link">小米 17 系列手机发布，起售价 4499 元起，该手机在硬件配置上有哪些升级？</a> [11] <font color='grey'>- 00时20分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7554197790973251098/" target="_blank" class="news-link">雷军曝凡客创始人10年还清10亿债务</a> [15] <font color='grey'>- 00时20分</font></div><br><div class='new-title'>🆕 [抖音] <a href="https://www.douyin.com/hot/2249650" target="_blank" class="news-link">小米17 Pro首发评测</a> [17] <font color='grey'>- 00时20分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7554331535197883913/" target="_blank" class="news-link">小米17真的能正面硬刚iPhone 17吗</a> [25] <font color='grey'>- 00时20分</font></div><br><div class='new-title'>🆕 [今日头条] <a href="https://www.toutiao.com/trending/7553799938379972649/" target="_blank" class="news-link">雷军称小米17细节精致度不亚于iPhone</a> [28] <font color='grey'>- 00时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>2</td>
+                <td class="word">苹果 库克 iphone ipad mac ios</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756293" target="_blank" class="news-link">不要解雇库克！所有在世的前美联储主席、多位前财长和前白宫经济顾问致函最高法</a> <font color='red'><strong>[3]</strong></font> <font color='grey'>- 00时20分</font></div><br><div class='new-title'>🆕 [百度热搜] <a href="https://www.baidu.com/s?wd=%E6%9B%9DiPhone17%E5%9B%BD%E5%86%85%E9%A6%96%E5%91%A8%E6%BF%80%E6%B4%BB%E9%87%8F%E7%A0%B4%E7%99%BE%E4%B8%87" target="_blank" class="news-link">曝iPhone17国内首周激活量破百万</a> [29] <font color='grey'>- 00时20分</font></div></td>
+            </tr>
+        
+            <tr>
+                <td>3</td>
+                <td class="word">ai 人工智能</td>
+                <td class="count">2</td>
+                <td class="percentage">0.78%</td>
+                <td class="titles"><div class='new-title'>🆕 [华尔街见闻] <a href="https://wallstreetcn.com/articles/3756301" target="_blank" class="news-link">市场最大“黑天鹅”：AI资本支出放缓，三大“巨雷”会是美股噩梦</a> <font color='red'><strong>[5]</strong></font> <font color='grey'>- 00时20分</font></div><br><div class='new-title'>🆕 [贴吧] <a href="https://tieba.baidu.com/hottopic/browse/hottopic?topic_id=28345359&amp;amp;topic_name=%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E9%A2%91%E6%90%9E%E4%BA%8B%2C%E7%BF%BB%E8%BD%A6%E7%8E%B0%E5%9C%BA%E7%89%B9%E5%88%AB%E5%A4%9A" target="_blank" class="news-link">人工智能频搞事,翻车现场特别多</a> [13] <font color='grey'>- 00时20分</font></div></td>
+            </tr>
+        
+        </table>
+    
+    </body>
+    </html>
+    
